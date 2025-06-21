@@ -1,9 +1,11 @@
 # QoL Bar
 A [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) plugin for creating custom menus for commands, similar to hotbars and macros.
+
 一款插件，用于创建命令的自定义菜单，类似于快捷栏和宏。适用于由Dalamua XIVLauncher.
 
 ## Getting Started 使用方式
 Upon first installing through `/xlplugins`, you will be greeted by a blank bar at the bottom of your screen, and the Demo Bar, which will showcase the various features that can be utilized. This bar will be updated over time to showcase any new features and may be freely deleted at any point, as it can be recreated by right clicking the `Import` button on the plugin config.
+
 通过 `/xlplugins` 首次安装后，你将在屏幕底部看到一个空白条形框和演示条形框，后者将展示可利用的各种功能。该条形框将随时间更新以展示新功能，并且可以随时自由删除，因为它可以通过在插件配置中右键点击 `Import` 按钮重新创建。
 
 - Terminology
@@ -12,6 +14,7 @@ Upon first installing through `/xlplugins`, you will be greeted by a blank bar a
   - Category: This is a shortcut that creates a popup containing more shortcuts
   - Spacer: This is a shortcut that has no function and exists specifically for information or to align other shortcuts
   - Pie: A bar brought up as a radial menu by holding a hotkey
+
 - 术语
   - 按键(Bar)：这些是包含快捷方式的定制菜单，类似于热键栏
   - 快捷方式(Shortcut)：这些是条上的按钮，类似于宏
@@ -25,6 +28,7 @@ Upon first installing through `/xlplugins`, you will be greeted by a blank bar a
   - Right click: Opens the configuration for the hovered shortcut or bar (the surrounding background)
   - Shift + Right click: Adds a new shortcut to the hovered bar or category
   - Double or Control + Left Click: Can be used on various options such as sliders to input custom amounts
+
 - 导航
   - 左键点击：执行快捷方式或移动解锁的窗口
   - 右键点击：打开悬停的快捷方式或条形（周围的背景）
@@ -32,20 +36,24 @@ Upon first installing through `/xlplugins`, you will be greeted by a blank bar a
   - 双击或按住 Control 键单击：可用于滑块等各种选项以输入自定义数量
 
 You can edit the shortcuts on the Demo Bar in order to see how they function.
+
 您可以在演示栏中编辑快捷方式，以查看它们的功能。(译者仍未找到演示栏指的是哪个)
 
 ## Advanced Features
 All of the following information is available through tooltips on the corresponding buttons or configuration inputs or in an example on the Demo Bar, but will be explained here in more detail.
+
 ## 高级功能
 所有以下信息均可通过相应按钮或配置输入的提示框，或在演示条上的示例获取，但此处将更详细地解释。
 
 ### Tooltips
 To add a tooltip to a shortcut, put `##` at the end of its name to use the following text as a tooltip, e.g. `Plugins##Opens the plugin installer`.
+
 ### 提示框
 要在快捷方式中添加提示框，在其名称末尾加上 `##` 以使用以下文本作为提示框，例如 `Plugins##打开插件安装器`。
 
 ### Icons
 To use an icon from the game, use `::#` as the shortcut's name, where # is the icon's ID, e.g. `::1`. These can also utilize tooltips in the same manner as above.
+
 ### 图标
 要使用游戏中的图标，将 `::#` 作为快捷方式名称，其中 # 是图标的 ID，例如 `::1`。这些也可以像上面一样使用工具提示。
 
