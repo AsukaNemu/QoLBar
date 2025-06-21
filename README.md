@@ -1,7 +1,7 @@
 # QoL Bar
 A [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) plugin for creating custom menus for commands, similar to hotbars and macros.
 
-一款插件，用于创建命令的自定义菜单，类似于快捷栏和宏。适用于由Dalamua XIVLauncher.
+一款基于FF14 Dalamua的插件，用于创建命令的自定义菜单，类似于快捷栏和宏。适用于由Dalamua XIVLauncher.
 
 ## Getting Started 使用方式
 Upon first installing through `/xlplugins`, you will be greeted by a blank bar at the bottom of your screen, and the Demo Bar, which will showcase the various features that can be utilized. This bar will be updated over time to showcase any new features and may be freely deleted at any point, as it can be recreated by right clicking the `Import` button on the plugin config.
